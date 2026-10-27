@@ -5,21 +5,22 @@ GAN（生成役と識別役を競わせる）の考え方を、コード生成�
 
 A multi-agent template where **Codex writes figure-plotting code and Claude Code sub-agents run, score, and send fixes back until it passes**.
 
-```
-オーナー ── /new-figure ──▶ 仕様書（specs/）
-                               │  /build
-                               ▼
-  ┌──────────── 生成と評価のループ（最大5回）────────────┐
-  │ Codex（実装）─▶ runner（実行）─▶ figure-reviewer（画像を見て採点）│
-  │     ▲                       └─▶ code-reviewer（コードを採点）   │
-  │     └──── 85点未満なら修正指示 ◀── ディレクター（Claude Code）    │
-  └────────────────────────────────────────────────────┘
-                               │ 合格
-                               ▼
-     reports/<図>/final.md ──▶ オーナーが確認・「確定」
-                               │
-                               ▼
-     JupyterLab 用ノートブックに変換 → FIGLAB_EXPORT_DIR へコピー
+```mermaid
+flowchart TD
+    O["オーナー"] -->|/new-figure| S["仕様書（specs/）"]
+    S -->|/build| C
+    subgraph LOOP["生成と評価のループ（最大5回）"]
+        C["Codex（実装）"] --> R["runner（実行）"]
+        R --> F["figure-reviewer（画像を見て採点）"]
+        R --> K["code-reviewer（コードを採点）"]
+        F --> D["ディレクター（Claude Code）"]
+        K --> D
+        D -->|85点未満なら修正指示| C
+    end
+    D -->|合格| REP["reports/図の名前/final.md"]
+    REP --> OK["オーナーが確認・「確定」"]
+    OK --> NB["JupyterLab用ノートブックに変換"]
+    NB --> EX["FIGLAB_EXPORT_DIR へコピー"]
 ```
 
 ## 構成
