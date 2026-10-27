@@ -1,0 +1,118 @@
+time_h,condition,replicate,value
+0,Control,1,0.0503
+4,Control,1,0.0875
+8,Control,1,0.1562
+12,Control,1,0.2512
+16,Control,1,0.3784
+20,Control,1,0.5695
+24,Control,1,0.7849
+28,Control,1,0.9345
+32,Control,1,0.9735
+36,Control,1,1.0183
+40,Control,1,1.0999
+44,Control,1,1.166
+48,Control,1,1.0426
+0,Control,2,0.0495
+4,Control,2,0.0826
+8,Control,2,0.1458
+12,Control,2,0.2431
+16,Control,2,0.3826
+20,Control,2,0.5709
+24,Control,2,0.7753
+28,Control,2,0.8865
+32,Control,2,1.0779
+36,Control,2,1.0509
+40,Control,2,1.1552
+44,Control,2,1.2162
+48,Control,2,1.1853
+0,Control,3,0.0481
+4,Control,3,0.084
+8,Control,3,0.1479
+12,Control,3,0.2527
+16,Control,3,0.3692
+20,Control,3,0.5536
+24,Control,3,0.731
+28,Control,3,0.9164
+32,Control,3,1.0198
+36,Control,3,1.1064
+40,Control,3,1.0982
+44,Control,3,1.1561
+48,Control,3,1.226
+0,Treatment A,1,0.0537
+4,Treatment A,1,0.1079
+8,Treatment A,1,0.2694
+12,Treatment A,1,0.5216
+16,Treatment A,1,0.8387
+20,Treatment A,1,1.1208
+24,Treatment A,1,1.2865
+28,Treatment A,1,1.5165
+32,Treatment A,1,1.6062
+36,Treatment A,1,1.6181
+40,Treatment A,1,1.5917
+44,Treatment A,1,1.524
+48,Treatment A,1,1.4083
+0,Treatment A,2,0.05
+4,Treatment A,2,0.1189
+8,Treatment A,2,0.2343
+12,Treatment A,2,0.4983
+16,Treatment A,2,0.8245
+20,Treatment A,2,1.1447
+24,Treatment A,2,1.2296
+28,Treatment A,2,1.3667
+32,Treatment A,2,1.4309
+36,Treatment A,2,1.3975
+40,Treatment A,2,1.6234
+44,Treatment A,2,1.4602
+48,Treatment A,2,1.5235
+0,Treatment A,3,0.0494
+4,Treatment A,3,0.1242
+8,Treatment A,3,0.267
+12,Treatment A,3,0.5042
+16,Treatment A,3,0.7182
+20,Treatment A,3,1.109
+24,Treatment A,3,1.3517
+28,Treatment A,3,1.4844
+32,Treatment A,3,1.4176
+36,Treatment A,3,1.6196
+40,Treatment A,3,1.3949
+44,Treatment A,3,1.4478
+48,Treatment A,3,1.5689
+0,Treatment B,1,0.0501
+4,Treatment B,1,0.0799
+8,Treatment B,1,0.1052
+12,Treatment B,1,0.1424
+16,Treatment B,1,0.1992
+20,Treatment B,1,0.2578
+24,Treatment B,1,0.3314
+28,Treatment B,1,0.4565
+32,Treatment B,1,0.5471
+36,Treatment B,1,0.6543
+40,Treatment B,1,0.6604
+44,Treatment B,1,0.8075
+48,Treatment B,1,0.7782
+0,Treatment B,2,0.0539
+4,Treatment B,2,0.071
+8,Treatment B,2,0.1004
+12,Treatment B,2,0.1489
+16,Treatment B,2,0.2135
+20,Treatment B,2,0.2749
+24,Treatment B,2,0.3437
+28,Treatment B,2,0.4129
+32,Treatment B,2,0.4944
+36,Treatment B,2,0.63
+40,Treatment B,2,0.7203
+44,Treatment B,2,0.7385
+48,Treatment B,2,0.7471
+0,Treatment B,3,0.0522
+4,Treatment B,3,0.068
+8,Treatment B,3,0.1005
+12,Treatment B,3,0.1516
+16,Treatment B,3,0.1802
+20,Treatment B,3,0.2779
+24,Treatment B,3,0.3437
+28,Treatment B,3,0.4449
+32,Treatment B,3,0.5296
+36,Treatment B,3,0.6208
+40,Treatment B,3,0.7101
+44,Treatment B,3,0.7164
+48,Treatment B,3,0.8456

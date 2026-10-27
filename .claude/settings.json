@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(codex exec:*)",
+      "Bash(python:*)",
+      "Bash(py:*)",
+      "Bash(pip install -r requirements.txt)",
+      "Bash(mkdir:*)",
+      "Bash(git diff:*)",
+      "Bash(git status:*)",
+      "Bash(git checkout -- data:*)",
+      "Bash(git checkout -- specs:*)"
+    ],
+    "deny": [
+      "Edit(data/**)"
+    ]
+  }
+}

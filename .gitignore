@@ -1,0 +1,52 @@
+# ===== 秘密情報 =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets*.json
+token*.json
+
+# ===== Claude Code / Codex の個人設定 =====
+.claude/settings.local.json
+.codex/config.toml
+.codex/auth.json
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ===== ログ =====
+*.log
+logs/
+
+# ===== 生成物（実行すれば再現できるもの）=====
+output/**
+!output/.gitkeep
+export/
+
+# ===== 実行記録（ローカルパス等を含むことがあるため公開しない）=====
+reports/**
+!reports/.gitkeep
+
+# ===== 研究データ（未発表データを守るため、サンプル以外は公開しない）=====
+data/**
+!data/sample/
+!data/sample/**
+
+# ===== お手本画像（論文の図など著作物を含みうるため公開しない）=====
+specs/ref/**
+!specs/ref/.gitkeep
+
+# ===== OS =====
+Thumbs.db
+desktop.ini
+.DS_Store
